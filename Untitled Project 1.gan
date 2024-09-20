@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Expense tracker" company="" webLink="http://" view-date="2024-06-23" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.2.3200" locale="en_US">
+    <description/>
+    <view zooming-state="default:7" id="gantt-chart">
+        <field id="tpd3" name="Name" width="200" order="0"/>
+        <field id="tpd4" name="Begin date" width="75" order="1"/>
+        <field id="tpd5" name="End date" width="75" order="2"/>
+        <option id="filter.completedTasks" value="false"/>
+        <timeline>
+            <![CDATA[1]]>
+        </timeline>
+        <option id="color.recent">
+            <![CDATA[#990033 #ff9900 #00ff00 #003333 #ccccff #330099 #0099ff #33ffff]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="insertion phase" color="#33ffff" meeting="false" start="2024-07-01" duration="10" complete="0" thirdDate="2024-09-16" thirdDate-constraint="0" expand="true"/>
+        <task id="1" name="specification book" color="#0099ff" meeting="false" start="2024-07-15" duration="9" complete="0" thirdDate="2024-07-15" thirdDate-constraint="0" expand="true"/>
+        <task id="2" name="analysis phase" color="#330099" meeting="false" start="2024-07-26" duration="12" complete="0" thirdDate="2024-07-26" thirdDate-constraint="0" expand="true"/>
+        <task id="3" name="conception phase" color="#ccccff" meeting="false" start="2024-08-13" duration="9" complete="0" thirdDate="2024-08-13" thirdDate-constraint="0" expand="true"/>
+        <task id="4" name="realization phase" meeting="false" start="2024-08-26" duration="15" complete="0" expand="true"/>
+        <task id="5" name="testing" color="#003333" meeting="false" start="2024-09-16" duration="5" complete="0" thirdDate="2024-09-16" thirdDate-constraint="0" expand="true"/>
+        <task id="6" name="installation guide and user guide" color="#00ff00" meeting="false" start="2024-09-23" duration="4" complete="0" thirdDate="2024-09-23" thirdDate-constraint="0" expand="true"/>
+        <task id="7" name="deployment of application" color="#ff9900" meeting="false" start="2024-07-26" duration="37" complete="0" thirdDate="2024-07-26" thirdDate-constraint="0" expand="true"/>
+        <task id="8" name="report writing" color="#990033" meeting="false" start="2024-07-01" duration="65" complete="0" thirdDate="2024-07-01" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
